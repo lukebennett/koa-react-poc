@@ -1,0 +1,25 @@
+{
+  "name": "koa-react-poc",
+  "version": "0.0.1",
+  "description": "Proof of concept Node.js app using Koa and React",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -e js,jsx server.js",
+    "test": "babel-node tests/index.js | faucet"
+  },
+  "keywords": [
+    "react",
+    "koa"
+  ],
+  "author": "Luke Bennett <luke@lukebennett.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "koa": "^1.1.2",
+    "koa-react-view": "^1.0.2",
+    "koa-router": "^5.2.3",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-stamp": "^0.3.0"
+  }
+}
